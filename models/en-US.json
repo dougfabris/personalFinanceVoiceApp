@@ -1,0 +1,62 @@
+{
+  "invocation": "personal finance",
+  "intents": [
+    {
+      "name": "CreateAccountIntent",
+      "phrases": ["create account", "new account", "create new account"]
+    },
+    {
+      "name": "AccountNameIntent",
+      "phrases": ["{accountName}", "my account name is {accountName}"],
+      "inputs": [
+        {
+          "name": "accountName"
+        }
+      ]
+    },
+    {
+      "name": "ListAccountIntent",
+      "phrases": ["my accounts", "list my accounts", "get my accounts"]
+    }
+  ],
+  "alexa": {
+    "interactionModel": {
+      "languageModel": {
+        "intents": [
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          }
+        ]
+      }
+    }
+  },
+  "dialogflow": {
+    "intents": [
+      {
+        "name": "Default Fallback Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "fallbackIntent": true
+      },
+      {
+        "name": "Default Welcome Intent",
+        "auto": true,
+        "webhookUsed": true,
+        "events": [
+          {
+            "name": "WELCOME"
+          }
+        ]
+      }
+    ]
+  }
+}

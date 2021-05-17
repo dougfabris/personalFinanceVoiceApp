@@ -1,0 +1,36 @@
+[
+	{
+		"userId": "jovo-debugger-user",
+		"userData": {
+			"data": {
+				"accounts": [
+					{
+						"id": 2896,
+						"accountName": "bb"
+					},
+					{
+						"id": 667,
+						"accountName": "sicoob"
+					},
+					{
+						"id": 2157,
+						"accountName": "nubank"
+					}
+				]
+			}
+		}
+	},
+	{
+		"userId": "amzn1.ask.account.AFQRJK5OP3RM2V23HBAZLKNZS2ILJBQAGEKRE2FDHQ7ZMYDV5OKCHG4MV4REQZRSV3X6YAAZ6BOCC5YQTQWV2U4HNT3HBAHKQH6EUHQLQXQMKDLY7VWQ52N26RQDKXHKC3AKPJFTYDFDDRNUEYWHTR5QCLFN4SZ74BMBND2ZZ7FR44JQ4SVWP6OCAFMNVHV6XQBEXJTQIKYFKUI",
+		"userData": {
+			"data": {
+				"accounts": [
+					{
+						"id": 1396,
+						"accountName": "Gabriel"
+					}
+				]
+			}
+		}
+	}
+]
